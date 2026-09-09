@@ -1,0 +1,13 @@
+/* style.css */
+/* Dark corporate theme for metrics */
+div[data-testid="metric-container"] {
+    background-color: #0E1117;
+    border-left: 4px solid #FFC107;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Hide the default Streamlit menu for a clean SaaS look */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
