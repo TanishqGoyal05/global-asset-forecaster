@@ -43,7 +43,7 @@ def get_usd_inr_rate():
 # ==========================================
 # 3. UI Layout: Header & Live KPI
 # ==========================================
-st.title("📊 Strategic Procurement: Global Commodity Forecaster")
+st.title("📊 Global Commodity Forecaster")
 st.markdown("---")
 
 current_rate, daily_change = get_usd_inr_rate()
